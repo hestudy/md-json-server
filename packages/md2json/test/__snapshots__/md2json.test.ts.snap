@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`toJson 1`] = `
+{
+  "children": [
+    {
+      "type": "yaml",
+      "value": "title: demo",
+    },
+    {
+      "children": [
+        {
+          "type": "text",
+          "value": "Pluto",
+        },
+      ],
+      "depth": 1,
+      "type": "heading",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": "text",
+              "value": "Pluto",
+            },
+          ],
+          "type": "strong",
+        },
+        {
+          "type": "text",
+          "value": " (minor-p…",
+        },
+      ],
+      "type": "paragraph",
+    },
+  ],
+  "type": "root",
+}
+`;
